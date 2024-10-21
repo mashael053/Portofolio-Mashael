@@ -1,0 +1,471 @@
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+  }
+
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  /* Navigation styles */
+  .navigation {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+  }
+  
+  .navigation .logo img {
+    height: 60px;
+  }
+  
+  .navigation ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navigation li {
+    margin: 0 20px;
+  }
+  
+  .navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navigation a:hover {
+    color: #ccc;
+  }
+  
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .Mashael-Introduction {
+    text-align: center;
+}
+
+.Mashael-Introduction button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Mashael-Introduction h3,
+.Mashael-Introduction p {
+    color: #fff;
+}
+.but-mashael {
+    height: auto;
+    display: block; 
+    margin-left: auto; 
+    margin-right: 40px; 
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .button1 {
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 14px ;
+    text-decoration: none;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #9b59b6, #FF5E69 , #FF8A56);
+  }
+
+  .button2 {
+    border: 2px solid #fff; 
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 14px ;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+
+  .button1:hover {
+    background-color: #000000;
+    color: #fff;
+    border: 2px solid #fff; 
+  }
+
+  .button2:hover {
+    background-color: #fff;
+    color: #000000;
+  }
+
+
+.title-skills{
+  color: #fff;
+  text-align: center;
+
+}
+  .image-container {
+    display: flex;
+    overflow-x: auto; 
+    justify-content: center;
+    gap: 13px; 
+    padding: 10px; 
+    flex-wrap: wrap; /* Enable wrapping */
+
+}
+
+
+.image-container img {
+    width: 100px; 
+    height: auto; 
+    border-radius: 4px; 
+}
+
+
+.My-works-UI-UX{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+  color: #ccc;
+
+
+}
+
+.title-work-ui{
+ width: 14.9vw;
+}
+
+.pra-work-ui{
+  width: 30vw;
+}
+
+
+.title-work-ui span  {
+  background-image: linear-gradient(to right, #9b59b6, #FF5E69 , #FF8A56);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.container-project a{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.container-project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+}
+
+.project {
+background-color: #FFF;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project2{
+  background-color: #34A591;
+}
+
+
+.project3{
+  background-color: #003463;
+}
+
+.project4{
+  background-color: #D3876F;
+}
+
+
+.project5{
+  background-color: #D4AA66;
+}
+
+.project6{
+  background-color: #0D1A49;
+}
+
+.project7{
+  background-color: #a1c398ef;
+}
+
+.project8{
+  background-color: #fbc102ce;
+}
+
+.project9{
+  background-color: #1B3160;
+}
+.project1{
+  background-color: #1C1C22;
+}
+.container-project h3{
+  color: white;
+
+}
+
+.project44{
+  background-color: #491B6D;
+}
+
+.project10{
+  background-color: #5C738C;
+}
+
+.project11{
+  background-color: #a686a2;
+}
+
+.project12{
+  background-color: #1f2a38;
+}
+
+.project img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.project h3 {
+  font-size: 20px;
+  margin: 20px 0 10px;
+  text-align: center;
+}
+
+.project p {
+  font-size: 16px;
+  color: whitesmoke;
+  text-align: center;
+  margin: 0 20px 20px;
+}
+
+
+.container-end{
+  background-color: #1C1C22;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}
+
+
+
+footer {
+  background-color: #6D3AFD;
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content h1 {
+  font-size: 26px;
+  color: white;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 30px;
+  font-size: x-large;
+}
+
+
+.container-github{
+  
+  text-align: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+
+  @media (max-width: 768px) {
+    .navigation {
+      height: auto;
+      padding: 10px;
+    }
+  
+    .navigation ul {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      background-color: #000;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      z-index: 1;
+    }
+  
+    .navigation li {
+      margin: 10px 0;
+    }
+  
+    .navigation .logo img {
+      height: 70px;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  
+    .navigation.active ul {
+      display: flex;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .Mashael-Introduction button {
+        padding: 9px 17px;
+        margin: 3px;
+
+    }
+
+    .but-mashael {
+      display: none; 
+    }
+
+    .Mashael-Introduction h3 {
+        font-size: 1.5em; 
+        font-style: italic;
+    }
+
+    .Mashael-Introduction p {
+        font-size: 1em; 
+    }
+}
+
+@media (max-width: 480px) {
+    .Mashael-Introduction h3 {
+        font-size: 1em;
+        font-style: italic;
+    }
+a
+    .Mashael-Introduction p {
+        font-size:3.2vw; 
+    }
+
+    .but-mashael {
+      display: none; 
+
+    }
+
+    .title-skills{
+      color: #fff;
+      text-align: center;
+      font-size: 0.8em;
+    
+    }
+
+    .Mashael-Introduction {
+      text-align: center;
+  }
+  .Mashael-Introduction img {
+    width: 50%;
+}
+.image-container img {
+  width: 50px; 
+  height: auto; 
+}
+
+
+.container-end {
+  padding: 15px; 
+  font-size: 13px;
+}
+
+
+
+.My-works-UI-UX {
+  flex-direction: column; 
+  align-items: center;
+  text-align: center; 
+}
+
+.title-work-ui {
+  width: 70%; 
+  margin-bottom: 10px;
+}
+
+.pra-work-ui {
+  width: 100%;
+}
+}
+
+@media (max-width: 768px) {
+  footer {
+    background-color: #6D3AFD;
+    padding: 20px;
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-content h1 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .social-links a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 5px;
+    font-size: 18px;
+  }
+}
